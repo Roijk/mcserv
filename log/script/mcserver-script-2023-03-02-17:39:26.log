@@ -1,0 +1,12 @@
+Mar 02 17:34:18.614 mcserver: START: PASS: Started LinuxGSM
+Mar 02 17:34:18.666 mcserver: START: INFO: LinuxGSM version: v23.1.0
+Mar 02 17:34:18.668 mcserver: START: PASS: core_exit.sh exiting with code: 0
+Mar 02 17:36:08.135 mcserver: CORE: PASS: Downloading command_details.sh
+Mar 02 17:36:09.648 mcserver: DETAILS: PASS: Downloading info_messages.sh
+Mar 02 17:36:10.772 mcserver: DETAILS: PASS: Downloading query_gamedig.sh
+Mar 02 17:36:10.939 mcserver: DETAILS: INFO: LinuxGSM version: v23.1.0
+Mar 02 17:36:10.943 mcserver: DETAILS: PASS: core_exit.sh exiting with code: 0
+Mar 02 17:36:53.827 mcserver: CORE: PASS: Downloading command_console.sh
+Mar 02 17:36:55.958 mcserver: CONSOLE: PASS: Console accessed
+Mar 02 17:39:28.854 mcserver: START: WARN: Missing dependencies: lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386
+Mar 02 17:39:30.348 mcserver: START: INFO: Rotating log files

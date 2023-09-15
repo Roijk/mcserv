@@ -1,0 +1,15 @@
+Mar 02 17:39:31.449 mcserver: START: PASS: Started LinuxGSM
+Mar 02 17:39:31.457 mcserver: START: INFO: LinuxGSM version: v23.1.0
+Mar 02 17:39:31.459 mcserver: START: PASS: core_exit.sh exiting with code: 0
+Mar 02 17:39:55.991 mcserver: DETAILS: INFO: LinuxGSM version: v23.1.0
+Mar 02 17:39:55.992 mcserver: DETAILS: PASS: core_exit.sh exiting with code: 0
+Mar 02 17:43:13.356 mcserver: CORE: PASS: Downloading command_stop.sh
+Mar 02 17:43:14.537 mcserver: STOP: INFO: Graceful: sending "stop"
+Mar 02 17:44:01.065 mcserver: STOP: ERROR: Graceful: sending "stop": FAIL
+Mar 02 17:44:01.587 mcserver: STOP: INFO: tmux kill-session: mcserver: LinuxGSM
+Mar 02 17:44:02.615 mcserver: STOP: PASS: Stopped LinuxGSM
+Mar 02 17:44:02.630 mcserver: STOP: INFO: LinuxGSM version: v23.1.0
+Mar 02 17:44:02.633 mcserver: STOP: PASS: core_exit.sh exiting with code: 0
+Mar 02 17:57:35.358 mcserver: CONSOLE: ERROR: Failed to access: Server not running
+Mar 02 18:01:34.183 mcserver: START: WARN: Missing dependencies: lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386
+Mar 02 18:01:35.667 mcserver: START: INFO: Rotating log files

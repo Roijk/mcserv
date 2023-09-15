@@ -1,0 +1,41 @@
+[32m[18:34:31] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 44.1.17, --fml.mcVersion, 1.19.3, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20221207.122022, nogui]
+[m[32m[18:34:31] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.6 by Private Build; OS Linux arch amd64 version 5.15.0-60-generic
+[m[32m[18:34:31] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/mcserver/serverfiles/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2364!/ Service=ModLauncher Env=SERVER
+[m[33m[18:34:31] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/mcserver/serverfiles/libraries/net/minecraftforge/fmlcore/1.19.3-44.1.17/fmlcore-1.19.3-44.1.17.jar is missing mods.toml file
+[m[33m[18:34:31] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/mcserver/serverfiles/libraries/net/minecraftforge/javafmllanguage/1.19.3-44.1.17/javafmllanguage-1.19.3-44.1.17.jar is missing mods.toml file
+[m[33m[18:34:31] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/mcserver/serverfiles/libraries/net/minecraftforge/lowcodelanguage/1.19.3-44.1.17/lowcodelanguage-1.19.3-44.1.17.jar is missing mods.toml file
+[m[33m[18:34:31] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/mcserver/serverfiles/libraries/net/minecraftforge/mclanguage/1.19.3-44.1.17/mclanguage-1.19.3-44.1.17.jar is missing mods.toml file
+[m[32m[18:34:31] [main/INFO] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[m[32m[18:34:33] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[m[32m[18:34:36] [main/INFO] [minecraft/DataFixers]: Building unoptimized datafixer
+[m[32m[18:34:37] [modloading-worker-0/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 44.1.17, for MC 1.19.3 with MCP 20221207.122022
+[m[32m[18:34:37] [modloading-worker-0/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v44.1.17 Initialized
+[m[33m[18:34:37] [Thread-0/WARN] [ne.mi.fm.co.ConfigFileTypeHandler/CONFIG]: Configuration file /home/mcserver/serverfiles/config/forge-common.toml is not correct. Correcting
+[m[32m[18:34:38] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[m[33m[18:34:38] [Thread-0/WARN] [ne.mi.fm.co.ConfigFileTypeHandler/CONFIG]: Configuration file /home/mcserver/serverfiles/config/forge-common.toml is not correct. Correcting
+[m[33m[18:34:38] [Thread-0/WARN] [ne.mi.fm.co.ConfigFileTypeHandler/CONFIG]: Configuration file /home/mcserver/serverfiles/config/forge-common.toml is not correct. Correcting
+[m[32m[18:34:38] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Found status: OUTDATED Current: 44.1.17 Target: 44.1.20
+[m[32m[18:34:38] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[m[32m[18:34:38] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [corpse] Found status: UP_TO_DATE Current: 1.19.3-1.0.2 Target: null
+[m[32m[18:34:39] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[m[1;31m[18:34:39] [main/ERROR] [minecraft/Main]: Failed to start the minecraft server
+net.minecraft.util.DirectoryLock$LockException: /home/mcserver/serverfiles/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.m_13648_(DirectoryLock.java:95) ~[server-1.19.3-20221207.122022-srg.jar%23103!/:?] {re:classloading}
+	at net.minecraft.util.DirectoryLock.m_13640_(DirectoryLock.java:41) ~[server-1.19.3-20221207.122022-srg.jar%23103!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:354) ~[server-1.19.3-20221207.122022-srg.jar%23103!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.LevelStorageSource.m_78260_(LevelStorageSource.java:302) ~[server-1.19.3-20221207.122022-srg.jar%23103!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:131) ~[server-1.19.3-20221207.122022-srg.jar%23103!/:?] {re:classloading}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.3-44.1.17.jar%2368!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+[m

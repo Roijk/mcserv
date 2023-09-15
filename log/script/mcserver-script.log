@@ -1,0 +1,8 @@
+Mar 02 19:37:59.352 mcserver: START: PASS: Started LinuxGSM
+Mar 02 19:37:59.363 mcserver: START: INFO: LinuxGSM version: v23.1.0
+Mar 02 19:37:59.365 mcserver: START: PASS: core_exit.sh exiting with code: 0
+May 21 22:23:50.139 mcserver: DETAILS: INFO: LinuxGSM version: v23.1.0
+May 21 22:23:50.157 mcserver: DETAILS: PASS: core_exit.sh exiting with code: 0
+Jun 22 23:13:57.990 mcserver: STOP: ERROR: LinuxGSM is already stopped
+Jun 22 23:13:58.020 mcserver: STOP: INFO: LinuxGSM version: v23.1.0
+Jun 22 23:13:58.023 mcserver: STOP: ERROR: core_exit.sh exiting with code: 2

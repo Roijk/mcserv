@@ -1,0 +1,5 @@
+Mar 02 18:05:17.068 mcserver: START: PASS: Started LinuxGSM
+Mar 02 18:05:17.086 mcserver: MODS-INSTALL: INFO: LinuxGSM version: v23.1.0
+Mar 02 18:05:17.088 mcserver: MODS-INSTALL: PASS: core_exit.sh exiting with code: 0
+Mar 02 18:05:28.282 mcserver: CONSOLE: ERROR: Failed to access: Server not running
+Mar 02 18:05:33.858 mcserver: START: INFO: Rotating log files

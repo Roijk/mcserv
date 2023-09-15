@@ -1,0 +1,10 @@
+Mar 02 18:51:17.372 mcserver: START: PASS: Started LinuxGSM
+Mar 02 18:51:17.380 mcserver: START: INFO: LinuxGSM version: v23.1.0
+Mar 02 18:51:17.382 mcserver: START: PASS: core_exit.sh exiting with code: 0
+Mar 02 19:36:22.925 mcserver: STOP: INFO: Graceful: sending "stop"
+Mar 02 19:37:09.502 mcserver: STOP: ERROR: Graceful: sending "stop": FAIL
+Mar 02 19:37:10.023 mcserver: STOP: INFO: tmux kill-session: mcserver: LinuxGSM
+Mar 02 19:37:11.052 mcserver: STOP: PASS: Stopped LinuxGSM
+Mar 02 19:37:11.067 mcserver: STOP: INFO: LinuxGSM version: v23.1.0
+Mar 02 19:37:11.070 mcserver: STOP: PASS: core_exit.sh exiting with code: 0
+Mar 02 19:37:58.170 mcserver: START: INFO: Rotating log files

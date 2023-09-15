@@ -1,0 +1,64 @@
+[32m[18:18:54] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 44.1.17, --fml.mcVersion, 1.19.3, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20221207.122022, nogui]
+[m[32m[18:18:54] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.6 by Private Build; OS Linux arch amd64 version 5.15.0-60-generic
+[m[32m[18:18:54] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/mcserver/serverfiles/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2364!/ Service=ModLauncher Env=SERVER
+[m[33m[18:18:54] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/mcserver/serverfiles/libraries/net/minecraftforge/fmlcore/1.19.3-44.1.17/fmlcore-1.19.3-44.1.17.jar is missing mods.toml file
+[m[33m[18:18:54] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/mcserver/serverfiles/libraries/net/minecraftforge/javafmllanguage/1.19.3-44.1.17/javafmllanguage-1.19.3-44.1.17.jar is missing mods.toml file
+[m[33m[18:18:54] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/mcserver/serverfiles/libraries/net/minecraftforge/lowcodelanguage/1.19.3-44.1.17/lowcodelanguage-1.19.3-44.1.17.jar is missing mods.toml file
+[m[33m[18:18:54] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/mcserver/serverfiles/libraries/net/minecraftforge/mclanguage/1.19.3-44.1.17/mclanguage-1.19.3-44.1.17.jar is missing mods.toml file
+[m[32m[18:18:54] [main/INFO] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[m[32m[18:18:55] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[m[32m[18:18:58] [main/INFO] [minecraft/DataFixers]: Building unoptimized datafixer
+[m[32m[18:18:59] [modloading-worker-0/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 44.1.17, for MC 1.19.3 with MCP 20221207.122022
+[m[32m[18:18:59] [modloading-worker-0/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v44.1.17 Initialized
+[m[32m[18:19:00] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[m[32m[18:19:00] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Found status: OUTDATED Current: 44.1.17 Target: 44.1.20
+[m[32m[18:19:01] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[m[33m[18:19:01] [main/WARN] [ne.mi.co.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+forge (version 44.1.0 -> 44.1.17)
+Things may not work well.
+[m[33m[18:19:02] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/mcserver/serverfiles/libraries/net/minecraft/server/1.19.3-20221207.122022/server-1.19.3-20221207.122022-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
+[m[33m[18:19:02] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/mcserver/serverfiles/libraries/net/minecraft/server/1.19.3-20221207.122022/server-1.19.3-20221207.122022-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
+[m[32m[18:19:04] [main/INFO] [minecraft/RecipeManager]: Loaded 7 recipes
+[m[32m[18:19:04] [main/INFO] [minecraft/AdvancementList]: Loaded 1179 advancements
+[m[32m[18:19:04] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.19.3
+[m[32m[18:19:04] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[m[32m[18:19:04] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[m[32m[18:19:04] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[m[?1h=[?2004h> [K[32m[18:19:04] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25565
+[m> [K[32m[18:19:04] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using epoll channel type
+[m> [K[32m[18:19:05] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[m> [K[32m[18:19:06] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[m> [K[32m[18:19:09] [Worker-Main-7/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[m> [K[32m[18:19:09] [Worker-Main-7/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[m> [K[32m[18:19:09] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[m> [K[32m[18:19:09] [Worker-Main-6/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[m> [K[32m[18:19:09] [Worker-Main-7/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[m> [K[32m[18:19:09] [Worker-Main-7/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[m> [K[32m[18:19:09] [Worker-Main-5/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 4%
+[m> [K[32m[18:19:10] [Worker-Main-1/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 69%
+[m> [K[32m[18:19:10] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 3787 ms
+[m> [K[32m[18:19:10] [Server thread/INFO] [minecraft/DedicatedServer]: Done (5.335s)! For help, type "help"
+[m> [K[32m[18:19:10] [Server thread/INFO] [minecraft/DedicatedServer]: Starting GS4 status listener
+[m> [K[32m[18:19:10] [Server thread/INFO] [minecraft/GenericThread]: Thread Query Listener started
+[m> [K[32m[18:19:10] [Query Listener #1/INFO] [minecraft/QueryThreadGs4]: Query running on 0.0.0.0:25565
+[m> [K[32m[18:19:10] [Server thread/INFO] [ne.mi.se.pe.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[m> [K[32m[18:24:15] [User Authenticator #1/INFO] [minecraft/ServerLoginPacketListenerImpl]: UUID of player Rojika is 66e11815-4418-46c7-9db9-131eb292f14d
+[m> [K[32m[18:24:16] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2928c756
+[m> [K[32m[18:24:16] [Server thread/INFO] [minecraft/PlayerList]: Rojika[/88.162.208.141:26998] logged in with entity id 108 at (-0.09215906207686786, 116.65193305765851, 8.74930470418163)
+[m> [K[32m[18:24:16] [Server thread/INFO] [minecraft/MinecraftServer]: Rojika joined the game
+[m> [K[32m[18:24:26] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: Rojika lost connection: Disconnected
+[m> [K[32m[18:24:26] [Server thread/INFO] [minecraft/MinecraftServer]: Rojika left the game
+[m> [K[32m[18:25:09] [User Authenticator #2/INFO] [minecraft/ServerLoginPacketListenerImpl]: UUID of player FFL4ME is be5f42c4-80df-4dc0-b3e7-467b577fd414
+[m> [K[32m[18:25:10] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7f04a816
+[m> [K[32m[18:25:10] [Server thread/INFO] [minecraft/PlayerList]: FFL4ME[/86.250.239.227:62770] logged in with entity id 201 at (10.5, 81.0, 4.5)
+[m> [K[32m[18:25:10] [Server thread/INFO] [minecraft/MinecraftServer]: FFL4ME joined the game
+[m> [K[32m[18:25:32] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: FFL4ME lost connection: Disconnected
+[m> [K[32m[18:25:32] [Server thread/INFO] [minecraft/MinecraftServer]: FFL4ME left the game
+[m> 
+[?1l>[?1000l[?2004l[?1h=[?2004h> stop
+[?1l>[?1000l[?2004l[?1h=[?2004h> [K[32m[18:33:39] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping the server
+[m> [K[32m[18:33:39] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[m> [K[32m[18:33:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[m> [K[32m[18:33:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[m> [K[32m[18:33:40] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[m> 

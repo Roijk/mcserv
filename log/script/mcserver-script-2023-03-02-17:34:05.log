@@ -1,0 +1,35 @@
+Mar 02 17:16:48.074 mcserver: INSTALL: INFO: Logs installed
+Mar 02 17:16:48.981 mcserver: INSTALL: PASS: Downloading check_deps.sh
+Mar 02 17:16:50.391 mcserver: INSTALL: PASS: Checking ubuntu-22.04.csv
+Mar 02 17:16:51.639 mcserver: INSTALL: PASS: Downloading ubuntu-22.04.csv
+Mar 02 17:16:54.928 mcserver: INSTALL: WARN: Missing dependencies: lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386
+Mar 02 17:16:55.951 mcserver: INSTALL: WARN: mcserver does not have sudo access. Manually install dependencies.
+Mar 02 17:16:57.025 mcserver: INSTALL: PASS: Downloading install_server_files.sh
+Mar 02 17:16:58.660 mcserver: INSTALL: PASS: Downloading install_eula.sh
+Mar 02 17:17:02.417 mcserver: INSTALL: PASS: Downloading update_minecraft.sh
+Mar 02 17:17:06.370 mcserver: INSTALL: PASS: Downloading minecraft_server.1.19.3.jar
+Mar 02 17:17:06.908 mcserver: INSTALL: PASS: Copying to /home/mcserver/serverfiles
+Mar 02 17:17:07.427 mcserver: INSTALL: PASS: clearing LinuxGSM tmp directory
+Mar 02 17:17:14.057 mcserver: INSTALL: PASS: Downloading install_config.sh
+Mar 02 17:17:15.650 mcserver: INSTALL: PASS: Downloading server.properties
+Mar 02 17:17:15.654 mcserver: INSTALL: INFO: copying server.properties config file.
+Mar 02 17:17:16.176 mcserver: INSTALL: INFO: changing hostname.
+Mar 02 17:17:16.713 mcserver: INSTALL: INFO: changing rcon/admin password.
+Mar 02 17:17:18.116 mcserver: INSTALL: PASS: Downloading fix.sh
+Mar 02 17:17:19.267 mcserver: INSTALL: PASS: Downloading install_stats.sh
+Mar 02 17:17:24.259 mcserver: INSTALL: PASS: Downloading install_complete.sh
+Mar 02 17:17:24.274 mcserver: INSTALL: INFO: Install Complete!
+Mar 02 17:17:25.166 mcserver: INSTALL: PASS: Downloading core_exit.sh
+Mar 02 17:17:25.184 mcserver: INSTALL: INFO: LinuxGSM version: v23.1.0
+Mar 02 17:17:25.187 mcserver: INSTALL: PASS: core_exit.sh exiting with code: 0
+Mar 02 17:34:06.032 mcserver: CORE: PASS: Downloading linuxgsm.sh
+Mar 02 17:34:07.254 mcserver: CORE: PASS: Downloading command_start.sh
+Mar 02 17:34:08.222 mcserver: START: PASS: Downloading check_root.sh
+Mar 02 17:34:09.176 mcserver: START: PASS: Downloading check_system_dir.sh
+Mar 02 17:34:10.088 mcserver: START: PASS: Downloading check_executable.sh
+Mar 02 17:34:11.383 mcserver: START: PASS: Downloading check_logs.sh
+Mar 02 17:34:13.044 mcserver: START: WARN: Missing dependencies: lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386
+Mar 02 17:34:14.445 mcserver: START: PASS: Downloading check_config.sh
+Mar 02 17:34:15.395 mcserver: START: PASS: Downloading check_status.sh
+Mar 02 17:34:16.969 mcserver: START: PASS: Downloading core_logs.sh
+Mar 02 17:34:17.513 mcserver: START: INFO: Rotating log files
